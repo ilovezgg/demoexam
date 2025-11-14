@@ -1,0 +1,23 @@
+.main{
+    width: 100%;
+    height: 950px;
+    background-color: #FFFFEE;
+    display: flex;
+}
+.pic{
+    height: 100%;
+    width: 40%;
+    background-image: url(./pics/komanda-rabotaet-nad-animacionnym-proektom.jpg);
+    background-size: cover;
+    border-radius: 10px;
+}
+.title{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 80px;
+    align-items: start;
+    padding-left: 20px;
+     padding-right: 20px;
+}

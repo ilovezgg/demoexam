@@ -1,0 +1,59 @@
+.main{
+  width: 100%;
+    height: 950px;
+    background-color: #FFFFEE;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    row-gap: 50px;
+}
+.textCards{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.teacherCard{
+    width: 30%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.teacherPicOne{
+   width: 100%;
+   height: 50%;
+   background-image: url(./pics/3d-vizualizacii-celoveka-zasity-zemnoi-sar.jpg);
+   background-size: cover;
+    border-radius: 10px;
+}
+.teacherPicTwo{
+    width: 100%;
+   height: 50%;
+   background-image: url(./pics/3d-vizualizacii-robota-vvedenia-ili-predstavlenia.jpg);
+   background-size: cover;
+    border-radius: 10px;
+} 
+.teacherPicThree{
+ width: 100%;
+   height: 50%;
+   background-image: url(./pics/3d-vizualizacii-robota.jpg);
+   background-size: cover;
+   border-radius: 10px;
+}
+.teacherText{
+    width: 100%;
+    height: 30%;
+    text-align: center;
+    font-size: 40px;
+}
+.textTeachers{
+    width: 100%;
+    text-align: center;
+    font-size: 70px;
+    font-weight: bold;
+    margin-top: 30px;
+}

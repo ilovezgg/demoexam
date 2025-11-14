@@ -1,0 +1,39 @@
+.main{
+     width: 100%;
+    height: 350px;
+    border-top-right-radius: 10px;
+     border-top-left-radius: 10px;
+     background-color: #A0322D;
+     display: flex;
+     justify-content: space-around;
+}
+.containerForButtons{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.buttonAboutUs, .buttonContacts, .buttonInfo{
+    width: 90%;
+    height: 20%;
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s ease-in;
+    border-radius: 10px;
+}
+.buttonAboutUs:hover, .buttonContacts:hover, .buttonInfo:hover{
+    color: #A0322D;
+    background-color: white;
+}
+.containerForMap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
