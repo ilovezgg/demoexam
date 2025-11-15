@@ -1,5 +1,12 @@
 .main{
     width: 100%;
+    height: 3050px;
+    background-color: #FFFFEE;
+    display: flex;
+    flex-direction: column;
+}
+.container{
+    width: 100%;
     height: 950px;
     background-color: #FFFFEE;
     display: flex;

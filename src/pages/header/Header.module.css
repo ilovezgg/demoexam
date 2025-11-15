@@ -24,8 +24,8 @@
     justify-content: space-between;
     align-items: center;
 }
-.whyUs, .contacts, .info{
-    width: 30%;
+.whyUs, .contacts, .info, .regist{
+    width: 23%;
     height: 50%;
     border: 0.5px solid white;
     border-radius: 10px;
