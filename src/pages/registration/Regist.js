@@ -115,7 +115,7 @@ const Regist = () => {
     
     try {
       await register(formData);
-      navigate('/applications', { replace: true });
+      navigate('/registpage', { replace: true });
     } catch (error) {
       console.error('Ошибка регистрации:', error);
       

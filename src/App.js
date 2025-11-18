@@ -10,6 +10,8 @@ import Do from './pages/whatWeDo/Do';
 import Regist from './pages/registration/Regist';
 import Sign from './pages/signIn/SignIn'
 import Contacts from './pages/contacts/Contacts';
+import MainUser from './pages/mainUser/MainUser';
+import Order from './pages/makeOrder/Order';
 function App() {
   return (
     <AuthProvider> 
@@ -23,6 +25,8 @@ function App() {
             <Route path="/regist" element={<Regist/>} />
               <Route path="/signin" element={<Sign/>} />
                 <Route path="/contacts" element={<Contacts/>} />
+                <Route path="/registpage" element={<MainUser/>} />
+                 <Route path="/order" element={<Order/>} />
           </Routes>
           <Footer/>
         </div>

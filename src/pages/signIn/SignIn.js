@@ -60,7 +60,7 @@ const SignIn = () => {
     
     try {
       await login(formData.email, formData.password);
-      navigate('/applications', { replace: true });
+      navigate('/registpage', { replace: true });
     } catch (error) {
       console.error('Ошибка входа:', error);
       
