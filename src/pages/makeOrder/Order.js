@@ -5,12 +5,20 @@ const Order = () => {
     <div className={z.main}>
     <div className={z.container}>
  <div className={z.containerForText}>
-     <textarea 
+  <div className={z.containerForArea}>
+ <textarea 
         className={z.textarea}
         placeholder="Введите название курса который вы бы хотели пройти"
         maxLength={500}
       ></textarea>
+  </div>
+  <div className={z.containerForInput}>
+<div className={z.title}>
+Введите желаемую дату начала обучения
+</div>
        <input type='date'id="birthdate" name="birthdate" className={z.data}/>
+  </div>
+
     </div>
     </div>
     <div className={z.choosePay}>
@@ -22,7 +30,7 @@ const Order = () => {
     </button>
     </div>
     <div className={z.sendButton}>
-
+      Отправить заявку
     </div> 
 
    

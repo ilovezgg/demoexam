@@ -3,26 +3,37 @@
     height: 950px;
     background-color: #FFFFEE;
     display: flex;
-    justify-content: space-around;
-
+    flex-direction: column;
+    row-gap: 60px;
+    padding-top:60px;
 }
 .textarea{
-    width: 300px;
+    width: 400px;
     height:100px;
-    outline:1px solid #a01e1e;
+    outline:1px solid #a01e1e;  
+    transform: translateX(10%);
+}
+.title{
+    font-size: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+transform: translateX(2%);
 }
 .data{
-    width: 200px;
+    width: 385px;
     border: 1px solid #a01e1e; 
-  background-color: #f0f0f0;
+  background-color: #987979;
   padding: 10px;
-  font-size: 20px;
+  color: white;
+  font-size: 23px;
+  transform: translateX(10%);
 }
 .choosePay{
     width: 30%;
     height: 20%;
     border: 1px solid black;
     display: flex;
+    transform: translateX(7%);
     border-radius: 10px;
 }
 .leftPart{
@@ -63,4 +74,16 @@
 }
 .leftPart:hover{  background-color: #a01e1e;
     color: white;
+}
+.sendButton{
+    width: 400px;
+    height: 100px;
+    background-color: #a01e1e;
+    color: white;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    transform: translateX(10%);
 }
